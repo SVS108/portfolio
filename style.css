@@ -1,0 +1,144 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald&subset=latin,cyrillic);
+
+body {
+  margin: 0;
+ 
+}
+header, .screen1, .screen2, .screen3 {
+  margin-left: 6.25%;
+  margin-right: 6.25%; 
+}
+
+header {
+  display: flex;
+  background-color: #353D40;
+}
+
+a{
+  margin: 0;
+  text-decoration: none;
+  font-size: calc(4px + 26*(100vw/1920));
+  font-family: Oswald;
+  color: #FFFFFF;
+  margin-right: 2%;
+ 
+}
+
+nav, .contacts {
+  display: flex;
+  align-items: center;
+  margin: 1%;
+ 
+}
+
+.contacts {
+  width: 100vw;
+  justify-content: flex-end;
+}
+
+nav {
+  justify-content: flex-start;
+}
+ .header-email,.header-phone {
+  width: 3%;
+  height: auto;
+  margin-right: 1%;
+}
+.screen1 {
+  background-color: rgb(179, 179, 179);
+  position: relative;
+  
+}
+
+.fio, .prof {
+  font-family: Oswald;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-shadow: 
+  rgb(0, 0, 0) 1px 0px 0px,
+   rgb(0, 0, 0) 0.540302px 0.841471px 0px, 
+   rgb(0, 0, 0) -0.416147px 0.909297px 0px, 
+   rgb(0, 0, 0) -0.989992px 0.14112px 0px, 
+   rgb(0, 0, 0) -0.653644px -0.756802px 0px, 
+   rgb(0, 0, 0) 0.283662px -0.958924px 0px, 
+   rgb(0, 0, 0) 0.96017px -0.279415px 0px,
+    0px 50px 60px #000000;
+    position: absolute;
+}   
+
+.fio {
+  
+  font-size: 6vw;
+  z-index: 1;
+  top: 0%;
+  left: 2%
+}
+
+.prof {
+  font-size: 5vw;
+  z-index: 1;
+  top: 75%;
+  left: 2%;
+  
+}
+
+.my-photo {
+  width: 35vw;
+  position: absolute;
+  right: 2% ;
+  bottom:5%;
+  z-index: 1;
+} 
+
+.photo {
+  width: 100%;
+  height: auto;
+}
+
+.fon {
+  width: 100%;
+  z-index: 0;
+  background-size: cover;
+}
+
+.fonpic {
+  width: 100%;
+  height: 100%;
+}
+
+.screen2 {
+ /* border:   rgb(209, 208, 208) solid; */
+ padding: 0.02px;
+ background-color: rgb(209, 208, 208);
+}
+.about, .skills {
+  margin: 1vw;
+  background-color: #fff;
+  }
+.about_title, .skills_title{
+  font-family: Oswald;
+  font-weight: bold;
+  font-size: 5vw;
+  text-align: center;
+  color: #353D40;
+}
+.about_text, .about_quote{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2vw;
+  text-align: center;
+
+  color: #353D40;
+}
+.about_text{
+  padding: 1%;
+}
+.screen3{
+  border:   rgb(209, 208, 208) solid;
+  
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("img/screen3.png");
+  padding-bottom: 52%;
+}
