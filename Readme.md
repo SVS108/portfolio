@@ -1,4 +1,6 @@
 <h3>содержание Портфолио</h3>
+<p><a href='https://github.com/SVS108/portfolio/tree/main/audit_m_s'>Телеграм-бот для учета расходов</a> @audit_my_spending_bot - Разработан основной функционал. Остатки, переводы, доходы, расходы. Аналитика будет позже.</p>
+
 <p><a href='https://github.com/SVS108/portfolio/tree/main/Обучение + Стажировка (ТГУ)'>Обучение + Стажировка (ТГУ)</a> - Сбор данных с использованием API VK, Selenium, Beautiful Soup, Scrapy. SQL запросы к базе postgres. Тема стажировочного кейса: "Анализ товарного предложения компьютеров в онлайн-магазинах". Очистка и подготовка данных.EDA. Статистический анализ. Визуализации.</p>
 
 <p><a href='https://github.com/SVS108/portfolio/tree/main/parse_aliexpress'>parse_aliexpress</a> - Парсинг Алиэкспресс (BeautifulSoup). Пагинация методом рекурсии</p>
